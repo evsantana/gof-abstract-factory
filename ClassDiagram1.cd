@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="gof_abstract_factory.Factory.NotificationCenter" Collapsed="true">
+    <Position X="2" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\NotificationCenter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="gof_abstract_factory.Factory.OfflineCenter" Collapsed="true">
+    <Position X="3" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\OfflineCenter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="gof_abstract_factory.Factory.OnlineCenter" Collapsed="true">
+    <Position X="0.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\OnlineCenter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="gof_abstract_factory.Domain.Factory.NotificationBase">
+    <Position X="4.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAQAAIAAAAAA=</HashCode>
+      <FileName>Domain\Factory\NotificationBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="gof_abstract_factory.Domain.Factory.Offline">
+    <Position X="6.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Factory\Offline.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="gof_abstract_factory.Domain.Factory.Online">
+    <Position X="2" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Factory\Online.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="gof_abstract_factory.Domain.Factory.Phone" Collapsed="true">
+    <Position X="5.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Factory\Phone.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="gof_abstract_factory.Domain.Factory.SMS" Collapsed="true">
+    <Position X="7.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Factory\SMS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="gof_abstract_factory.Domain.Factory.Telegram" Collapsed="true">
+    <Position X="3.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Factory\Telegram.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="gof_abstract_factory.Domain.Factory.Whatsapp" Collapsed="true">
+    <Position X="1" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Factory\Whatsapp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="gof_abstract_factory.Domain.Enums.NotificationType" Collapsed="true">
+    <Position X="10.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Enums\NotificationType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="gof_abstract_factory.Domain.Enums.OfflineType" Collapsed="true">
+    <Position X="12" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Domain\Enums\OfflineType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="gof_abstract_factory.Domain.Enums.OnlineType" Collapsed="true">
+    <Position X="10.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAACAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Domain\Enums\OnlineType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
